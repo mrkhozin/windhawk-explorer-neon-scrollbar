@@ -1,6 +1,10 @@
 # 🌀 Explorer Cyber-Neon Scrollbar (Configurable Alpha Override)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Mod Version](https://img.shields.io/badge/Version-0.7-blue.svg)
+![Mod Preview](banner.png)
+> Neon scrollbar mod for Windows Explorer with configurable glow and alpha override.
+
 
 Mod Windhawk ini menggambar scrollbar neon di Windows Explorer dengan efek glow dan kontrol alpha manual untuk area yang mencurigakan.
 
@@ -72,3 +76,6 @@ Developed by **Moch. Khozin & Copilot**
 
 Mod ini dibuat untuk komunitas modding dan troubleshooting lokal  
 This mod was built for the local modding and troubleshooting community
+---
+🔝 [Kembali ke atas / Back to top](#-explorer-cyber-neon-scrollbar-configurable-alpha-override)
+
