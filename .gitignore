@@ -1,41 +1,26 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# 🔧 Build artifacts
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
+*.exe
+*.dll
+*.lib
+*.pdb
 *.ilk
 
-# Debugger Files
-*.pdb
+# 🧪 Debug & temp files
+*.log
+*.tmp
+*.bak
+*.suo
+*.user
+*.vcxproj.user
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# 🧰 IDE folders
+.vs/
 
-# Fortran module files
-*.mod
-*.smod
+# 📦 Windhawk-specific
+*.whmod
+*.wh.json.user
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# 📁 OS-specific
+Thumbs.db
+.DS_Store
