@@ -1,8 +1,10 @@
 # 🌀 Explorer Cyber-Neon Scrollbar
 
-![Mod Icon](icon.png)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Mod Version](https://img.shields.io/badge/Version-0.7-blue.svg)
+
+![Mod Icon](icon.png)
+> Neon scrollbar mod for WinExplorer
 
 ---
 
