@@ -4,7 +4,7 @@
   "description": "Neon scrollbar with glow, with adjustable alpha override for suspicious areas.",
   "version": "0.7",
   "author": "Moch. Khozin & Copilot",
-  "icon": "icon.png",
+  "icon": "https://raw.githubusercontent.com/M-KHOZIN/windhawk-explorer-neon-scrollbar/main/docs/icon.png",
   "tags": ["scrollbar", "explorer", "neon", "ui", "customization"],
   "include": "explorer.exe",
   "compilerOptions": "-lcomdlg32 -lgdiplus -luxtheme",
@@ -59,4 +59,5 @@
       "$name": "Mod enabled"
     }
   }
+
 }
