@@ -81,6 +81,15 @@ Ada dua cara untuk menginstal mod ini di Windhawk:
 
 ---
 
+# 🧩 Scrollbar Width Tweaks (.reg)
+
+**EN:** These registry scripts adjust the width of scrollbars in classic Windows apps like File Explorer.  
+**ID:** Skrip registry ini mengatur lebar scrollbar di aplikasi klasik Windows seperti File Explorer.
+
+Go to folder | Cek di folder 📂: [scrollbar-width](https://github.com/mrkhozin/windhawk-explorer-neon-scrollbar/tree/main/scrollbar-width) 
+
+---
+
 ## 🧪 Catatan Teknis / Technical Notes
 
 - Hook pada `DrawThemeBackground` dari `uxtheme.dll`  
