@@ -1,0 +1,62 @@
+{
+  "id": "explorer-neon-scroll-configurable",
+  "name": "Explorer Cyber-Neon Scrollbar (Configurable Alpha Override)",
+  "description": "Neon scrollbar with glow, with adjustable alpha override for suspicious areas.",
+  "version": "0.7",
+  "author": "Moch. Khozin & Copilot",
+  "icon": "icon.png",
+  "tags": ["scrollbar", "explorer", "neon", "ui", "customization"],
+  "include": "explorer.exe",
+  "compilerOptions": "-lcomdlg32 -lgdiplus -luxtheme",
+  "readme": {
+    "en": "# 🌀 Explorer Cyber-Neon Scrollbar (Manual Alpha Control)\n\nThis mod draws neon effects on Explorer scrollbars with green thumb and translucent purple track.\n\n📌 Notes:\n- Explorer uses the same scrollbar for both navigation and main panels.\n- If the navigation panel gets tinted, reduce `track.alpha` to 30–50 to make it nearly invisible.\n- Thumb effect remains bright and active.\n\n🎨 Tips:\n- `track.alpha = 120` → clearly visible\n- `track.alpha = 30` → nearly transparent\n- `thumb.alpha = 230` → stays neon",
+    "id": "# 🌀 Explorer Cyber-Neon Scrollbar (Kontrol Manual Alpha)\n\nMod ini menggambar efek neon di scrollbar Explorer dengan thumb hijau dan track ungu transparan.\n\n📌 Catatan:\n- Explorer menggunakan scrollbar yang sama untuk panel navigasi dan panel utama.\n- Jika panel navigasi ikut terwarnai, turunkan nilai `track.alpha` ke 30–50 agar efeknya nyaris tak terlihat.\n- Efek thumb tetap aktif dan terang.\n\n🎨 Tips:\n- `track.alpha = 120` → terlihat jelas\n- `track.alpha = 30` → nyaris transparan\n- `thumb.alpha = 230` → tetap neon"
+  },
+  "settings": {
+    "track": {
+      "type": "group",
+      "red": { "type": "int", "default": 80 },
+      "green": { "type": "int", "default": 0 },
+      "blue": { "type": "int", "default": 70 },
+      "alpha": { "type": "int", "default": 120 },
+      "$name": "Track color (RGBA)"
+    },
+    "thumb": {
+      "type": "group",
+      "red": { "type": "int", "default": 0 },
+      "green": { "type": "int", "default": 255 },
+      "blue": { "type": "int", "default": 110 },
+      "alpha": { "type": "int", "default": 230 },
+      "$name": "Thumb color (RGBA)"
+    },
+    "glow": {
+      "type": "group",
+      "red": { "type": "int", "default": 0 },
+      "green": { "type": "int", "default": 255 },
+      "blue": { "type": "int", "default": 150 },
+      "alpha": { "type": "int", "default": 160 },
+      "size": { "type": "int", "default": 10 },
+      "$name": "Glow config"
+    },
+    "trackOverlayEnabled": {
+      "type": "bool",
+      "default": true,
+      "$name": "Enable track overlay"
+    },
+    "safeMode": {
+      "type": "bool",
+      "default": true,
+      "$name": "Enable auto alpha override in suspicious areas"
+    },
+    "overrideAlpha": {
+      "type": "int",
+      "default": 30,
+      "$name": "Override alpha value (0–255) for suspicious areas"
+    },
+    "enabled": {
+      "type": "bool",
+      "default": true,
+      "$name": "Mod enabled"
+    }
+  }
+}
