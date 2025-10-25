@@ -5,7 +5,7 @@
   "version": "0.7",
   "author": "Moch. Khozin & Copilot",
   "icon": "https://raw.githubusercontent.com/M-KHOZIN/windhawk-explorer-neon-scrollbar/main/docs/icon.png",
-  "tags": ["scrollbar", "explorer", "neon", "ui", "customization"],
+  "tags": ["scrollbar", "explorer", "neon", "ui", "customization", "glow", "alpha", "visual", "theme", "experimental", "configurable", "accessibility"],
   "include": "explorer.exe",
   "compilerOptions": "-lcomdlg32 -lgdiplus -luxtheme",
   "readme": {
@@ -61,3 +61,4 @@
   }
 
 }
+
