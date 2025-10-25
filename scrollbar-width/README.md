@@ -36,9 +36,11 @@ ID: Lebar maksimal |
 **EN:** You can manually edit the scrollbar width via Registry Editor.  
 **ID:** Anda dapat mengedit lebar scrollbar secara manual melalui Registry Editor.
 
-📍 Path:
-HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics
-
+**Langkah | Step**
+1. Start Windows / Keyboard (Klick Start tombol windows / di keyboard): `CMD + R`, `type:` `regedit`, `Enter`.
+2. Pergi ke | Go to :
+- 📍 Lokasi | Path :
+     `HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics`
 
 🔧 Keys to edit:
 - `ScrollWidth`
@@ -50,3 +52,4 @@ HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics
 
 **EN:** Double-click `ScrollWidth`, enter a new value (e.g. `-510`), click OK, then restart your PC.  
 **ID:** Klik dua kali `ScrollWidth`, masukkan nilai baru (misalnya `-510`), klik OK, lalu restart komputer Anda.
+
